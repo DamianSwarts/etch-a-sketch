@@ -15,3 +15,11 @@ container.forEach(function (container){
         container.appendChild(div);       
     }
 });
+
+const gridCell = document.querySelectorAll("div")
+// Event listener to change the color of a cell when the user hovers over it
+gridCell.forEach(function (cell){
+    cell.addEventListener("mouseover", () => {
+        cell.style.backgroundColor = "yellowgreen";
+    });
+});
