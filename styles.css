@@ -1,6 +1,6 @@
 body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items:center;
     justify-content:center;
     max-height: 600px; 
@@ -10,10 +10,10 @@ body{
 
 .container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     flex: auto;
-    height:600px;  
-    width: 37.5px; 
+    height:960px;  
+    width: 800px; 
 }
 
 .grid-cell {
@@ -21,4 +21,7 @@ body{
     flex:auto;
     border: 0.1px solid black;
     background-color: #ffffff;  
+}
+.button-container{
+    margin: 10px;
 }

@@ -16,7 +16,7 @@ container.forEach(function (container){
     }
 });
 
-const gridCell = document.querySelectorAll("div")
+const gridCell = document.querySelectorAll(".grid-cell")
 // Event listener to change the color of a cell when the user hovers over it
 gridCell.forEach(function (cell){
     cell.addEventListener("mouseover", () => {
