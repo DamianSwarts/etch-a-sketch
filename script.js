@@ -1,9 +1,9 @@
 /* Create 15 more container divs to go with the one already 
 in my HTML file*/
-for (let i = 0; i < 15; i++){
+for (let i = 0; i < 16; i++){
     const moreContainers = document.createElement('div');
     moreContainers.classList = "container";
-    document.getElementById('body').appendChild(moreContainers);
+    const body = document.getElementById('body').appendChild(moreContainers);
 }
 
 // Create 16 div elements for each of the containers
