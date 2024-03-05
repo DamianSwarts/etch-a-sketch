@@ -34,5 +34,8 @@ function changeGridSize() {
     const size = Number(prompt("How many rows do you want the grid to be? (NO MORE THAN 100)"));
     if (size <= 100 && size >= 0){
         createGrid(size);
+    } 
+    else {
+        alert("Please ensure that you enter a number between 0 and 100.")
     }
 }
