@@ -22,7 +22,7 @@ function createGrid(size){
     // Event listener to change the color of a cell when the user hovers over it
     gridCell.forEach(function (cell){
         cell.addEventListener("mouseover", () => {
-            cell.style.backgroundColor = "yellowgreen";
+            cell.style.backgroundColor = "hsl(76, 100%, 19%)";
         });
     });
 }
