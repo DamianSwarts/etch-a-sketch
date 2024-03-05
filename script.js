@@ -1,5 +1,5 @@
 const body = document.getElementById('body');
-const grid = document.getElementById("main container");
+const grid = document.getElementById("main");
 
 /* Create container divs for the display of the grid*/
 function createGrid(size){
