@@ -2,8 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content:center;
-    max-height: 600px; 
+    justify-content:center; 
     max-width: 960px;  
     margin-left: 200px;
 }
@@ -12,8 +11,8 @@ body{
     display: flex;
     flex-direction: row; 
     flex: auto;
-    height:960px;  
-    width: 800px; 
+    height:35px;  
+    width: 960px; 
 }
 
 .grid-cell {
