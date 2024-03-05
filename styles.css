@@ -47,8 +47,14 @@ h1{
 }
 
 button{
-    background-color: hsl(76, 100%, 52%);
-    border: 0.1px solid #dadada;
+    color: hsl(76, 100%, 52%);
+    background-color: black;
+    padding: 5px;
+    border: 0.1px solid #1d1d1d;
     font-size: 1rem;
     font-weight: 550;
+}
+
+button:hover{
+    cursor: pointer;
 }
