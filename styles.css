@@ -39,7 +39,6 @@ h1{
 .grid-cell {
     display: flex;
     flex:auto;
-    border: 0.1px solid black;
     background-color: #dadada; 
 }
 
@@ -51,7 +50,7 @@ button{
     color: hsl(76, 100%, 52%);
     background-color: black;
     padding: 5px;
-    border: 0.1px solid hsl(76, 100%, 52%);
+    border: hsl(76, 100%, 52%);
     font-size: 1rem;
     font-weight: 500;
     border-radius: 25px;

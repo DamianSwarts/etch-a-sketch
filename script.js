@@ -22,7 +22,7 @@ function createGrid(size){
     // Event listener to change the color of a cell when the user hovers over it
     gridCell.forEach(function (cell){
         cell.addEventListener("mouseover", () => {
-            cell.style.backgroundColor = "hsl(76, 100%, 19%)";
+            cell.style.backgroundColor = randomHexColor();
         });
     });
 }
@@ -39,3 +39,7 @@ function changeGridSize() {
         alert("Please ensure that you enter a number between 0 and 100.")
     }
 }
+
+// Function to generate a random color for a square instead of only one color every time
+const randomHexColor = () =>
+  `#${Math.floor(Math.random() * 16777215).toString(16)}`;
